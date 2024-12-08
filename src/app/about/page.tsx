@@ -58,9 +58,7 @@ export default function Aboutus() {
                   Show More
                 </button>
                 <button className="ml-4 inline-flex text-black bg-white border-0 py-2 px-3 focus:outline-none rounded text-lg">
-                  <span className="mr-2" >
-                  <IoPlayOutline />
-                  </span>
+                  <IoPlayOutline className="mr-2" />
                   Watch Video
                 </button>
               </div>

@@ -25,13 +25,10 @@ export default function Navbar() {
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? (
-            <span className="w-6 h-6">
-              <HiX />
-            </span>
+              <HiX className="w-6 h-6"/>
           ) : (
-            <span className="w-6 h-6">
-              <HiMenuAlt3 />
-            </span>
+              
+              <HiMenuAlt3 className="w-6 h-6"/>
           )}
         </div>
 
@@ -60,9 +57,7 @@ export default function Navbar() {
               placeholder="Search..."
               className="bg-black border border-[#FF9F0D] rounded-full px-4 py-2 text-sm focus:outline-none focus:ring focus:ring-orange-500"
             />
-            <span className="absolute top-2.5 right-3">
-              <CiSearch />
-            </span>
+              <CiSearch className="absolute top-2.5 right-3" />
           </div>
             <IoBagHandle className="w-6 h-6" />
         </div>

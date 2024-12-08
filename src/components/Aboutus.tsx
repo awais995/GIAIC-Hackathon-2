@@ -27,21 +27,15 @@ function AboutUs() {
           </p>
           <ul className="space-y-4">
             <li className="flex items-start text-[08px] md:text-[10px] lg:text-[12px] xl:text-[18px] font-normal">
-              <span className="mr-[10px]">
-                <FaCheck />
-              </span>
+                <FaCheck className="mr-[10px]" />
               Lacus nisi, et ac dapibus sit eu velit in consequat.
             </li>
             <li className="flex items-start text-[08px] md:text-[10px] lg:text-[12px] xl:text-[18px] font-normal">
-              <span className="mr-[10px]">
-                <FaCheck />
-              </span>
+                <FaCheck className="mr-[10px]"/>
               Quisque diam pellentesque bibendum non dui volutpat fringilla.
             </li>
             <li className="flex items-start text-[08px] md:text-[10px] lg:text-[12px] xl:text-[18px] font-normal">
-              <span className="mr-[10px]">
-                <FaCheck />
-              </span>
+                <FaCheck className="mr-[10px]" />
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </li>
           </ul>
