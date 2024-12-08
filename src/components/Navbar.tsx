@@ -64,9 +64,7 @@ export default function Navbar() {
               <CiSearch />
             </span>
           </div>
-          <span className="w-6 h-6">
-            <IoBagHandle />
-          </span>
+            <IoBagHandle className="w-6 h-6" />
         </div>
       </section>
     </nav>
