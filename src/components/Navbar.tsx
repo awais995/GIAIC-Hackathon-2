@@ -45,7 +45,7 @@ export default function Navbar() {
             <li
               key={item}
               className="hover:text-orange-500 cursor-pointer px-4 md:px-0"
-              onClick={() => setMenuOpen(false)} // Close the menu on click
+              onClick={() => setMenuOpen(false)} 
             >
               {item}
             </li>
