@@ -1,6 +1,5 @@
 import React from 'react';
-import Image from "next/image";
-import menu from "../../../my-project/public//menu/m1.png";
+import Image from 'next/image';
 
 const menuItems = [
   { name: 'Lettuce Leaf', description: 'Lacus nisl, et ac dapibus velit in consequat.', price: '12.5$', image: '/menu/m3.jpeg' },
@@ -35,15 +34,15 @@ const Menu = () => {
         <div className='flex flex-col lg:flex-row'>
           {/* Left Section: Decorative Image */}
           <div className="hidden lg:block w-1/3 md:w-[50%]">
-            <Image src={menu} alt="Menu Decor" layout="responsive" />
+            <Image src="/menu/m1.png" alt="Menu Decor" width={500} height={500} layout="responsive" />
           </div>
 
           {/* Right Section: Menu Items */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 flex-grow">
             {menuItems.map((item, index) => (
-              <div key={index} className="flex 00 rounded-lg overflow-hidden shadow-lg">
-                <div className="w-1/3 ">
-                  <Image src={item.image} alt={item.name} width={100} height={100} className="object-cover  h-[80%]" />
+              <div key={index} className="flex rounded-lg overflow-hidden shadow-lg">
+                <div className="w-1/3">
+                  <Image src={item.image} alt={item.name} width={100} height={100} className="object-cover h-[80%]" />
                 </div>
                 <div className="p-4 w-2/3">
                   <h1 className="text-lg font-semibold">{item.name}</h1>
