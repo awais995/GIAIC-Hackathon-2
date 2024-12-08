@@ -17,10 +17,10 @@ export default function Hero() {
       <div className="relative w-full max-w-screen-xl h-[500px] flex flex-col md:flex-row justify-center items-center overflow-hidden px-4">
         {/* Content */}
         <div className="relative z-20 sm:w-full md:w-[50%] text-center md:text-left flex flex-col justify-center items-center md:items-start">
-          <h3 className="text-yellow-500 font-sans text-lg sm:text-xl md:text-2xl">It&apos;s Quick & Amusing</h3>
+          <h3 className="text-primary font-sans text-lg sm:text-xl md:text-2xl">It&apos;s Quick & Amusing</h3>
 
           <h1 className="text-white font-bold text-3xl sm:text-4xl lg:text-5xl mt-2 flex flex-col sm:flex-row items-center sm:justify-start">
-            <p><span className="text-yellow-400">The </span> Art of Speed </p>
+            <p><span className="text-primary">The </span> Art of Speed </p>
           </h1>
           <h2 className="text-white font-bold text-3xl sm:text-4xl lg:text-5xl pt-4">
             Food Quality
@@ -31,7 +31,7 @@ export default function Hero() {
               facere voluptatum tempore massa conque.
             </p>
           </div>
-          <button className="bg-yellow-500 sm:px-3  md:px-7 sm:text-sm py-2 text-gray-900 rounded-full h-10">
+          <button className="bg-primary sm:px-3 w-[120px] h-[40px] md:w-[160px] md:h-[40px] md:px-7 sm:text-sm py-2 text-gray-900 rounded-full">
             See Menu
           </button>
         </div>

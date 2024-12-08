@@ -37,7 +37,7 @@ function AboutUs() {
             </li>
           </ul>
           <div className="flex flex-col items-center md:items-start mt-6">
-            <button className="bg-[#FF9F0D] text-white w-[140px] h-[45px] md:w-[190px] md:h-[60px] rounded-[40px] hover:bg-yellow-800 text-lg md:text-xl transition-all">
+            <button className="bg-[#FF9F0D] text-white w-[120px] h-[40px]  md:w-[160px] md:h-[40px] rounded-[40px] hover:bg-yellow-800 text-lg md:text-xl transition-all">
               See More
             </button>
           </div>

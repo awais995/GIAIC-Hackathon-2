@@ -1,11 +1,10 @@
 import Image from "next/image";
 import { IoPlayOutline } from "react-icons/io5";
-import Heropage from "./Heropage";
+import Link from "next/link";
 
 export default function Aboutus() {
   return (
-    
-      <div>
+    <div>
       {/* First Section: Content and Buttons */}
       <section className="text-white body-font">
         <div className="container mx-auto flex flex-col md:flex-row items-center md:space-x-8 py-24 px-6">
