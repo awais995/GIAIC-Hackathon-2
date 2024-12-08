@@ -2,9 +2,6 @@ import React from "react";
 import Image from "next/image";
 import { FaCheck } from "react-icons/fa6";
 
-import about1 from "../../../my-project/public/about/about1.png";
-import about2 from "../../../my-project/public/about/about2.png";
-import about3 from "../../../my-project/public/about/about3.png";
 
 function AboutUs() {
   return (
@@ -50,7 +47,7 @@ function AboutUs() {
       {/* Image Section */}
       <div className="w-full lg:w-1/2 flex flex-col gap-6 lg:gap-8 items-center lg:items-start">
         <Image
-          src={about1}
+          src="/about/about1.png"
           alt="About 1"
           width={760}
           height={330}
@@ -58,14 +55,14 @@ function AboutUs() {
         />
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-4 w-full">
           <Image
-            src={about2}
+            src="/about/about2.png"
             alt="About 2"
             width={332}
             height={194}
             className="w-full lg:w-[48%] h-auto object-cover rounded-lg"
           />
           <Image
-            src={about3}
+            src="/about/about3.png"
             alt="About 3"
             width={332}
             height={194}

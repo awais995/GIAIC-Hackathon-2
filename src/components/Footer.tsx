@@ -1,10 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
-import f1 from "../../../my-project/public/footer/f1.png";
-import f2 from "../../../my-project/public/footer/f2.png";
-import f3 from "../../../my-project/public/footer/f3.png";
 
 import { PiClockClockwiseBold } from "react-icons/pi";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaPinterest } from "react-icons/fa";
@@ -90,21 +86,21 @@ const Footer = () => {
             <h2 className="mb-6 text-2xl font-semibold">Recent Posts</h2>
             <ul className="text-gray-500 font-medium space-y-4">
               <li className="flex gap-4">
-                <Image src={f1} alt="Post Image" width={72} height={72} />
+                <Image src="/footer/f1.png" alt="Post Image" width={72} height={72} />
                 <div>
                   <h3 className="text-sm text-white opacity-50">20 Feb 2022</h3>
                   <h3 className="text-lg text-white">Keep Your Business</h3>
                 </div>
               </li>
               <li className="flex gap-4">
-                <Image src={f2} alt="Post Image" width={72} height={72} />
+                <Image src="/footer/f2.png" alt="Post Image" width={72} height={72} />
                 <div>
                   <h3 className="text-sm text-white opacity-50">20 Feb 2022</h3>
                   <h3 className="text-lg text-white">Keep Your Business</h3>
                 </div>
               </li>
               <li className="flex gap-4">
-                <Image src={f3} alt="Post Image" width={72} height={72} />
+                <Image src="/footer/f3.png" alt="Post Image" width={72} height={72} />
                 <div>
                   <h3 className="text-sm text-white opacity-50">20 Feb 2022</h3>
                   <h3 className="text-lg text-white">Keep Your Business</h3>
