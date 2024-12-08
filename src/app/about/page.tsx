@@ -93,7 +93,7 @@ export default function Aboutus() {
             <div className="p-4 md:w-1/3">
               <div className="h-full flex justify-center items-center flex-col border-2 rounded-lg overflow-hidden p-6">
                 <Image
-                  src="/aboutpage/student.png"
+                  src="/aboutpage/Student.png"
                   width={80}
                   height={80}
                   alt="BEST CHEF"
@@ -113,7 +113,7 @@ export default function Aboutus() {
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 flex justify-center items-center flex-col rounded-lg overflow-hidden p-6">
                 <Image
-                  src="/aboutpage/coffee.png"
+                  src="/aboutpage/Coffee.png"
                   width={80}
                   height={80}
                   alt="120 Item food"
@@ -133,7 +133,7 @@ export default function Aboutus() {
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 flex justify-center items-center flex-col rounded-lg overflow-hidden p-6">
                 <Image
-                  src="/aboutpage/person.png"
+                  src="/aboutpage/Person.png"
                   width={80}
                   height={80}
                   alt="Clean Environment"
