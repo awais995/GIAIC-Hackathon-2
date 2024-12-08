@@ -48,7 +48,7 @@ function AboutUs() {
       <div className="w-full lg:w-1/2 flex flex-col gap-6 lg:gap-8 items-center lg:items-start">
         <Image
           src="/about/about1.png"
-          alt="About 1"
+          alt="About1"
           width={760}
           height={330}
           className="w-full h-auto object-cover rounded-lg"
@@ -56,14 +56,14 @@ function AboutUs() {
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-4 w-full">
           <Image
             src="/about/about2.png"
-            alt="About 2"
+            alt="About2"
             width={332}
             height={194}
             className="w-full lg:w-[48%] h-auto object-cover rounded-lg"
           />
           <Image
             src="/about/about3.png"
-            alt="About 3"
+            alt="About3"
             width={332}
             height={194}
             className="w-full lg:w-[48%] h-auto object-cover rounded-lg"
