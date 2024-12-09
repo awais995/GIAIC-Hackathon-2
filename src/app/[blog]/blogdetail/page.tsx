@@ -1,12 +1,12 @@
 import React from 'react'
-import Hero from './hero'
-import Aboutus from './about'
+import Hero from './Hero'
+import BlogDetails from './blogdetail'
 
 const page = () => {
   return (
     <div>
       <Hero />
-      <Aboutus />
+      <BlogDetails />
     </div>
   )
 }

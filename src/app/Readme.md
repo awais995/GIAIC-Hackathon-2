@@ -16,3 +16,14 @@ template
 # Steps to run the project locally:
 
 Run this command in VS Code Terminal : npm run dev
+
+#installed laibraries
+
+1. lucide-react library: 
+    # command: npm install lucide-react
+
+2. Radix UI (@radix-ui/react-slot) :  
+    # command: npm install @radix-ui/react-slot class-variance-authority
+
+4. React Icons Library:
+    # command: npm install react-icons --save

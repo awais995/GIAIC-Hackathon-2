@@ -1,7 +1,10 @@
 import Image from "next/image";
+import Navbar from "./Navbar";
 
 export default function Hero() {
   return (
+      <div>
+        <Navbar /> 
     <main className="w-full flex justify-center items-center bg-black relative">
       {/* Background Image */}
       <Image
@@ -58,5 +61,6 @@ export default function Hero() {
       </div>
 
     </main>
+    </div>
   );
 }
