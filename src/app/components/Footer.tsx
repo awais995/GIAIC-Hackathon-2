@@ -73,7 +73,7 @@ const Footer = () => {
           <div>
             <h2 className="mb-6 text-2xl font-semibold">Help?</h2>
             <ul className="text-white font-medium">
-              <li className="mb-4"><a href="#" className="hover:underline">FAQ</a></li>
+              <li className="mb-4"><a href="/FAQ" className="hover:underline">FAQ</a></li>
               <li className="mb-4"><a href="#" className="hover:underline">Terms & Conditions</a></li>
               <li className="mb-4"><a href="#" className="hover:underline">Reporting</a></li>
               <li className="mb-4"><a href="#" className="hover:underline">Documentation</a></li>
@@ -112,7 +112,7 @@ const Footer = () => {
 
         <div className="w-full px-4 py-6 bg-primary flex flex-col sm:flex-row sm:gap-4 items-center justify-evenly">
           <span className="text-sm text-white text-center sm:text-left">
-            Copyright @ 2024 by Sufyan Khan. All Rights Reserved.
+            Copyright @ 2024 All Rights Reserved.
           </span>
 
           <div className="flex gap-4 ">

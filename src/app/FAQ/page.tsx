@@ -1,14 +1,14 @@
 import React from 'react'
+import FAQ from './faq'
 import HeroSection from './Hero'
-import ErrorPage from './404error'
 
-const page = () => {
+const Faqs = () => {
   return (
     <div>
       <HeroSection />
-      <ErrorPage />
+      <FAQ />
     </div>
   )
 }
 
-export default page
+export default Faqs

@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Add these Tailwind classes for responsive design */
+.container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      @apply hidden;
+    }
+    
+    .product-grid {
+      @apply grid-cols-1;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .product-grid {
+      @apply grid-cols-2;
+    }
+  }

@@ -35,17 +35,18 @@ function HeroSection() {
             <Link href="/contact" className="text-white hover:text-orange-500">
               Contact
             </Link>
+           
           </div>
 
           {/* Right Icons */}
           <div className="flex items-center gap-4">
-          <button className="relative text-white hover:text-orange-500">
+            <button className="relative text-white hover:text-orange-500">
             <input
               type="text"
               placeholder="Search..."
-              className="bg-black border border-[#FF9F0D] rounded-full px-4 py-2 text-sm focus:outline-none focus:ring focus:ring-orange-500"
+              className="bg-black border border-[#FF9F0D] rounded-full px-2 py-2 text-sm focus:outline-none focus:ring focus:ring-orange-500"
             />
-              <Search className="absolute top-2.5 right-3 h-5 w-5" />
+              <Search className="absolute top-2.5 right-3 " />
               <span className="sr-only">Search</span>
             </button>
             <Link href="/account">
@@ -66,15 +67,15 @@ function HeroSection() {
       <div className='container mx-auto px-4 mt-16'>
         <div className='flex flex-col items-center'>
           <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-white font-bold text-center mb-4 sm:mb-6'>
-            Error Page
+            Sign up Page
           </h1>
           <div className='text-base sm:text-lg md:text-xl flex gap-2 text-center justify-center'>
             <Link href="/" className='text-white hover:text-[#FF9F0D] transition-colors duration-300'>
               Home
             </Link>
             <span className='text-white'>/</span>
-            <Link href="/404error" className='text-[#FF9F0D]'>
-              Error Page
+            <Link href="/signup" className='text-[#FF9F0D]'>
+              Sign up
             </Link>
           </div>
         </div>

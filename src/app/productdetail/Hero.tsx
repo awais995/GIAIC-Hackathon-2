@@ -20,7 +20,7 @@ function HeroSection() {
             <Link href="/menu" className="text-white hover:text-orange-500">
               Menu
             </Link>
-            <Link href="/blog" className="text-orange-500">
+            <Link href="/blog" className="text-white hover:text-orange-500">
               Blog
             </Link>
             <Link href="/pages" className="text-white hover:text-orange-500">
@@ -66,15 +66,15 @@ function HeroSection() {
       <div className='container mx-auto px-4 mt-16'>
         <div className='flex flex-col items-center'>
           <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-white font-bold text-center mb-4 sm:mb-6'>
-            Error Page
+            Shop Detail
           </h1>
           <div className='text-base sm:text-lg md:text-xl flex gap-2 text-center justify-center'>
             <Link href="/" className='text-white hover:text-[#FF9F0D] transition-colors duration-300'>
               Home
             </Link>
             <span className='text-white'>/</span>
-            <Link href="/404error" className='text-[#FF9F0D]'>
-              Error Page
+            <Link href="/shopdetail" className='text-[#FF9F0D]'>
+              Shop Detail
             </Link>
           </div>
         </div>

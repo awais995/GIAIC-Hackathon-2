@@ -1,14 +1,15 @@
 import React from 'react'
 import HeroSection from './Hero'
-import ErrorPage from './404error'
+import Signin from './signin'
 
-const page = () => {
+const SignInPage = () => {
   return (
     <div>
       <HeroSection />
-      <ErrorPage />
+      <Signin />
+
     </div>
   )
 }
 
-export default page
+export default SignInPage

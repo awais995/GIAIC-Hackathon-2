@@ -1,6 +1,8 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  
+  
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -23,7 +25,7 @@ const config: Config = {
       },
 
       colors: {
-        primary: "#FF9F0D",
+        primary: '#FF9F0D',  // orange-500
         secondary: "#1A202C",
         accent: "#F8312F",
       },

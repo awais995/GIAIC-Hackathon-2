@@ -2,10 +2,7 @@ import Link from "next/link";
 
 export default function ErrorPage() {
   return (
-    <>
     <div className="min-h-screen bg-white">
-      
- 
       <section className="p-10 relative bg-white pt-36 flex flex-col items-center">
         <div className="w-[630px] text-center">
           <h3 className="text-[96px] font-bold text-[#FF9F0D] mb-6">404</h3>
@@ -26,7 +23,6 @@ export default function ErrorPage() {
           </Link>
         </div>
       </section>
-    </div>
- </>
-  );
+    </div>
+  );
 }

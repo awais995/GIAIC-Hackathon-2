@@ -10,6 +10,14 @@ template
 5. Design Standard: Achieve pixel-perfect and responsive design. 
 
 # Key components implemented
+    header
+    footer 
+    landing page
+    signup page
+    signin page
+    404 Error page
+    blog page
+    blog detail page
     
 
 
