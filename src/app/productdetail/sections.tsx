@@ -35,10 +35,10 @@ export const ProductDescription = () => (
       <h2 className="text-lg font-semibold mb-4">Similar Products</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {[
-          { name: "Fresh Lime", price: "$38.00", oldPrice: "$45.00", image: "/shopimages/freshLime.png" },
+          { name: "Fresh Lime", price: "$38.00", oldPrice: "$45.00", image: "/shopimages/freshlime.png" },
           { name: "Chocolate Muffin", price: "$28.00", image: "/shopimages/muffin.png" },
           { name: "Burger", price: "$21.00", image: "/shopimages/burger.png" },
-          { name: "Fresh Lime", price: "$38.00", oldPrice: "$45.00", image: "/shopimages/freshLime.png" },
+          { name: "Fresh Lime", price: "$38.00", oldPrice: "$45.00", image: "/shopimages/freshlime.png" },
         ].map((product, index) => (
           <div key={index} className="border rounded-lg overflow-hidden shadow-sm">
             <Image src={product.image} alt={product.name} width={256} height={256} className="w-full h-64 object-cover" />

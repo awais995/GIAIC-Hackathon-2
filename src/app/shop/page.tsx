@@ -5,7 +5,7 @@ import { Sidebar } from "./Sidebar";
 import { SearchIcon } from "lucide-react";
 // Sample products array
 const products = [
-  { id: 1, name: "Fresh Lime", price: 38.00, image: "/shopimages/freshLime.png", originalPrice: 45.00 },
+  { id: 1, name: "Fresh Lime", price: 38.00, image: "/shopimages/freshlime.png", originalPrice: 45.00 },
   { id: 2, name: "Chocolate Muffin", price: 55.00, image: "/shopimages/muffin.png", onSale: true  },
   { id: 3, name: "Burger", price: 45.00, image: "/shopimages/burger.png", originalPrice: 45.00 },
   { id: 4, name: "Country Burger", price: 45.00, image: "/shopimages/cuntry-burger.png"},
