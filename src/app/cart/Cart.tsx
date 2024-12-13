@@ -1,4 +1,3 @@
-// components/ShoppingCart.jsx
 import Image from 'next/image';
 import { FaTimes, FaPlus, FaMinus } from 'react-icons/fa';
 
@@ -52,19 +51,19 @@ const ShoppingCart = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <div className="container mx-auto px-4 py-8 mb-0 max-w-4xl">
       <div className="bg-white rounded-lg shadow-lg p-6 overflow-x-auto">
-        <div className="grid grid-cols-12 gap-4 mb-4 text-gray-600 font-semibold">
-          <div className="col-span-6 sm:col-span-4 md:col-span-5 lg:col-span-6">Product</div>
+        <div className="grid grid-cols-6 sm:grid-cols-12 gap-4 mb-4 text-gray-600 font-semibold">
+          <div className="col-span-4 sm:col-span-6 lg:col-span-6">Product</div>
           <div className="col-span-2 hidden sm:block">Price</div>
-          <div className="col-span-2 sm:col-span-3 md:col-span-3 lg:col-span-2">Quantity</div>
+          <div className="col-span-3 lg:col-span-2">Quantity</div>
           <div className="col-span-1 hidden sm:block">Total</div>
           <div className="col-span-1 hidden sm:block">Remove</div>
         </div>
 
         {cartItems.map((item) => (
-          <div key={item.id} className="grid grid-cols-12 gap-4 items-center py-4 border-b">
-            <div className="col-span-6 sm:col-span-4 md:col-span-5 lg:col-span-6 flex items-center gap-4">
+          <div key={item.id} className="grid grid-cols-6 sm:grid-cols-12 gap-4 items-center py-4 border-b">
+            <div className="col-span-4 sm:col-span-6 lg:col-span-6 flex items-center gap-4">
               <div className="w-16 h-16 relative">
                 <Image
                   src={item.image}
@@ -93,7 +92,7 @@ const ShoppingCart = () => {
 
             <div className="col-span-2 hidden sm:block">${item.price.toFixed(2)}</div>
 
-            <div className="col-span-2 sm:col-span-3 md:col-span-3 lg:col-span-2 flex items-center gap-2">
+            <div className="col-span-3 lg:col-span-2 flex items-center gap-2">
               <input
                 type="number"
                 value={item.quantity}
@@ -120,3 +119,6 @@ const ShoppingCart = () => {
 };
 
 export default ShoppingCart;
+
+
+
