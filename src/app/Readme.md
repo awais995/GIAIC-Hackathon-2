@@ -13,11 +13,18 @@ template
     header
     footer 
     landing page
-    signup page
-    signin page
-    404 Error page
+    Menu Page
+    Shop list page
+    product detail page
+    shop cart page
     blog page
     blog detail page
+    about us page
+    Checkout Page
+    FAQ Page
+    404 Error page
+    signup page
+    signin page
     
 
 
