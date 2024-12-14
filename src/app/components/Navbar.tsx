@@ -26,9 +26,9 @@ export default function Navbar() {
 
         {/* Links */}
         <ul
-          className={`absolute md:static top-16 left-0 w-full md:w-auto bg-black md:bg-transparent md:flex items-center space-y-4 md:space-y-0 md:space-x-6 text-sm transition-all duration-300 ${
-            menuOpen ? "block" : "hidden"
-          }`}
+          className={`fixed inset-0 flex flex-col items-center justify-center bg-black bg-opacity-90 z-30 text-white md:static md:flex md:flex-row md:items-center md:justify-center md:w-auto md:bg-transparent space-y-8 md:space-y-0 md:space-x-6 text-sm transition-transform duration-300 ${
+            menuOpen ? "transform translate-x-0" : "transform -translate-x-full"
+          } md:transform-none md:transition-none`}
         >
           {[
             { name: "Home", path: "/" },
@@ -44,7 +44,7 @@ export default function Navbar() {
               className="hover:text-orange-500 cursor-pointer px-4 md:px-0"
               onClick={() => setMenuOpen(false)}
             >
-              <Link href={item.path}>{item.name}</Link> {/* Correct path */}
+              <Link href={item.path}>{item.name}</Link>
             </li>
           ))}
         </ul>
@@ -65,4 +65,3 @@ export default function Navbar() {
     </nav>
   );
 }
-  

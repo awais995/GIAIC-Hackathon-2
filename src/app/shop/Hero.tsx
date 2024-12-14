@@ -66,7 +66,7 @@ function HeroSection() {
       <div className='container mx-auto px-4 mt-16'>
         <div className='flex flex-col items-center'>
           <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-white font-bold text-center mb-4 sm:mb-6'>
-            Our Shop
+            Shop
           </h1>
           <div className='text-base sm:text-lg md:text-xl flex gap-2 text-center justify-center'>
             <Link href="/" className='text-white hover:text-[#FF9F0D] transition-colors duration-300'>
